@@ -1,0 +1,69 @@
+<html>
+<head>
+<title> CORDIC Vectoring </title>
+<style type="text/css">
+#container{
+	width:600px;
+	height: 500px;
+	margin:auto;
+	box-shadow:2px 0 3px #000, -2px 0 3px #000;
+	border-radius:10px;
+}
+#center{
+	width:84%;
+	height: 350px;
+}
+#caixas{
+	width: 400px;
+	height: 325px;
+	background-color:#EFEFEF;
+	float: right;
+	border-radius:10px;
+	margin-top: 90px;
+}
+#select{
+	position: absolute;
+	margin: 50px;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+#rodape{
+	background: black;
+	width: 600px;
+	height: 20px;
+	clear:both;
+	color:#FFFFFF;
+	position: absolute;
+	margin-top:130px;
+	border-radius: 0 0 10px 10px;
+}		
+</style>
+</head>
+<body>
+<div id="container">
+	<div id="center">
+		<div id="caixas">
+				<h3>CORDIC Vectoring</h3>
+			<div id="select">
+				<form action= "vectoring.php" method="GET" name="cordic"> 
+				Digite o primeiro valor: 
+				<input type= "text" name= "x" size= "20" /> <br>
+				Digite o segundo valor:  
+				<input type= "text" name= "y" size= "20" /> <br>
+				Digite o terceiro valor: 
+				<input type= "text" name= "z" size= "20" /> <br>
+				<input type= "submit" value= "OK!"/>
+				</br>
+				<a href="index.html"> Voltar </a>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="rodape">
+		Developed by Aline Alves e Jaíne Chianca
+	</div>
+</div>
+</body>
+</html>
